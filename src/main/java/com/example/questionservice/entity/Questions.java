@@ -21,5 +21,5 @@ public class Questions {
     @Field
     private double point;
     @Field
-    private String[] options;
+   private String[] options;
 }

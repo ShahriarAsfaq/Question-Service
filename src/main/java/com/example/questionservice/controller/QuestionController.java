@@ -12,7 +12,7 @@ public class QuestionController {
     private QuestionService questionService;
 
     @PostMapping("/")
-    public Questions saveEmployee(@RequestBody Questions questions){
+    public Questions saveQuestion(@RequestBody Questions questions){
         return questionService.saveQuestion(questions);
     }
 
